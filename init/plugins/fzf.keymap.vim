@@ -1,20 +1,29 @@
 " File search
-:nnoremap <Leader>f :FZF<CR>
+:nnoremap <Space>f :FZF<CR>
 
-" File search
-:nnoremap <Leader>g :GFiles<CR>
+" Git-managed file search
+:nnoremap <Space>g :GFiles<CR>
 
-" String Serch with Grep
-:nnoremap <Leader>r :Rg<CR>
+" Modified File search
+:nnoremap <Space>m :GFiles?<CR>
+
+" String Serch with ripgrep
+:nnoremap <Space>r :Rg<CR>
 
 " Opened Buffers search
-:nnoremap <Leader>b :Buffers<CR>
+:nnoremap <Space>b :Buffers<CR>
 
 " Window search
-:nnoremap <Leader>w :Windows<CR>
+:nnoremap <Space>w :Windows<CR>
 
 " History search
-:nnoremap <Leader>h :History<CR>
+:nnoremap <Space>h :History<CR>
+
+" Commits search
+:nnoremap <Space>c :Commits<CR>
+
+" Command search
+:nnoremap <Space>p :Commands<CR>
 
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
