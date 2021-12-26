@@ -39,4 +39,3 @@ endfunction
 
 set ttimeoutlen=150
 autocmd InsertLeave * call Fcitx2en()
-
