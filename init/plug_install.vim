@@ -34,6 +34,6 @@ Plug 'lambdalisue/fern-git-status.vim'          " Git status
 Plug 'lambdalisue/nerdfont.vim'                 " Nerd font
 Plug 'lambdalisue/fern-renderer-nerdfont.vim'   " Nerd font renderer
 Plug 'lambdalisue/glyph-palette.vim'            " Icon colorizer
-
+Plug 'lambdalisue/fern-hijack.vim'              " Set Fern as default explorer
 " Initialize plugin system
 call plug#end()
