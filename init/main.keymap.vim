@@ -1,3 +1,6 @@
+" Set Leader key
+let mapleader = "\<Space>"
+
 " Change focusing tab
 nmap <Tab>      gt
 nmap <S-Tab>    gT

@@ -1,4 +1,4 @@
-nnoremap <silent> <Space>e :<C-u>Fern . -reveal=% -drawer -toggle -width=40<CR>
+nnoremap <silent> <Leader>e :<C-u>Fern . -reveal=% -drawer -toggle -width=40<CR>
 
 " Plugin: Fern Preview config
 " Preview leaf content by j/k like VS code

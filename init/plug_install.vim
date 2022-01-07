@@ -26,6 +26,9 @@ Plug 'Yggdroot/indentLine'
 " Git
 Plug 'tpope/vim-fugitive'
 
+" Terminal
+Plug 'kassio/neoterm'
+
 " File explorer
 Plug 'lambdalisue/fern.vim'
 Plug 'antoinemadec/FixCursorHold.nvim'          " Fix neovim's problem. COMMENT OUT THIS LINE if you use vim.
@@ -36,5 +39,6 @@ Plug 'lambdalisue/nerdfont.vim'                 " Nerd font
 Plug 'lambdalisue/fern-renderer-nerdfont.vim'   " Nerd font renderer
 Plug 'lambdalisue/glyph-palette.vim'            " Icon colorizer
 Plug 'lambdalisue/fern-hijack.vim'              " Set Fern as default explorer
+
 " Initialize plugin system
 call plug#end()
