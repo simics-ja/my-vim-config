@@ -30,7 +30,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'lambdalisue/fern.vim'
 Plug 'antoinemadec/FixCursorHold.nvim'          " Fix neovim's problem. COMMENT OUT THIS LINE if you use vim.
 Plug 'yuki-yano/fern-preview.vim'               " File preview
-Plug 'lambdalisue/fern-git-status.vim'          " Git status
+Plug 'lambdalisue/fern-git-status.vim'          " Show file's git status
+Plug 'airblade/vim-gitgutter'                   " Show line's git diff
 Plug 'lambdalisue/nerdfont.vim'                 " Nerd font
 Plug 'lambdalisue/fern-renderer-nerdfont.vim'   " Nerd font renderer
 Plug 'lambdalisue/glyph-palette.vim'            " Icon colorizer
