@@ -52,6 +52,14 @@ fe          " hide files matching your pattern string (file exclude)
 ?           " help
 ```
 
+## Termainal
+
+-[kassio/neoterm](https://github.com/kassio/neoterm)
+
+```
+<SPACE>t    " Toggle terminal on vim
+```
+
 ## Fuzzy finder
 
 - [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
