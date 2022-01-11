@@ -25,6 +25,7 @@ Plug 'Yggdroot/indentLine'
 
 " Git
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'                   " Show line's git diff
 
 " Terminal
 Plug 'kassio/neoterm'
@@ -34,11 +35,13 @@ Plug 'lambdalisue/fern.vim'
 Plug 'antoinemadec/FixCursorHold.nvim'          " Fix neovim's problem. COMMENT OUT THIS LINE if you use vim.
 Plug 'yuki-yano/fern-preview.vim'               " File preview
 Plug 'lambdalisue/fern-git-status.vim'          " Show file's git status
-Plug 'airblade/vim-gitgutter'                   " Show line's git diff
 Plug 'lambdalisue/nerdfont.vim'                 " Nerd font
 Plug 'lambdalisue/fern-renderer-nerdfont.vim'   " Nerd font renderer
 Plug 'lambdalisue/glyph-palette.vim'            " Icon colorizer
 Plug 'lambdalisue/fern-hijack.vim'              " Set Fern as default explorer
+
+" Comment out
+Plug 'tpope/vim-commentary'
 
 " Initialize plugin system
 call plug#end()
