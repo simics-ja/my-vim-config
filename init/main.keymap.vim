@@ -21,3 +21,7 @@ nnoremap <C-L> <C-W>l
 inoremap <silent> jj <ESC>
 inoremap <silent> っｊ <ESC>
 inoremap <silent> っj <ESC>
+
+" Reset highlight after hlsearch
+nnoremap <ESC><ESC> :nohl<CR>
+
