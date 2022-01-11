@@ -72,7 +72,7 @@ fe          " hide files matching your pattern string (file exclude)
 <SPACE>b    " opened buffer search
 <SPACE>w    " window search
 <SPACE>h    " history search
-<SPACE>c    " commit log search
+<SPACE>l    " commit log search
 <SPACE>p    " vim command search
 ```
 

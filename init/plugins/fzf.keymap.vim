@@ -20,7 +20,7 @@ nnoremap <Leader>w :Windows<CR>
 nnoremap <Leader>h :History<CR>
 
 " Commits search
-nnoremap <Leader>c :Commits<CR>
+nnoremap <Leader>l :Commits<CR>
 
 " Command search
 nnoremap <Leader>p :Commands<CR>
