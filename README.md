@@ -7,6 +7,7 @@ Preliminarily, install the following commands.
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [dracula(color scheme)](https://github.com/dracula/dracula-theme)
+- node.js(required for [coc.nvim](neoclide/coc.nvim))
 - NerdFont
 
 # Set up
@@ -31,6 +32,21 @@ Then, open nvim/vim and install plugins.
 ```
 :PlugInstall
 ```
+
+For your requirements, set up a language server you need.
+This environment uses [coc.nvim](neoclide/coc.nvim).
+
+```
+:CocInstall coc-json coc-tsserver coc-css coc-html coc-sh
+```
+
+Additionally, execute the following command for coc-sh.
+
+```
+npm i -g bash-language-server
+```
+
+For other language, please refer to [coc manual](https://github.com/neoclide/coc.nvim/wiki/Language-servers).
 
 # Customized keymaps
 
