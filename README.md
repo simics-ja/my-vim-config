@@ -1,3 +1,5 @@
+![スクリーンショット 2022-01-11 21 56 12](https://user-images.githubusercontent.com/29770297/148946532-1bedf79d-5d37-40d0-b47f-68d21502114a.png)
+
 # Preparation
 
 Preliminarily, install the following commands.
