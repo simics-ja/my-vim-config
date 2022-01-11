@@ -54,7 +54,7 @@ fe          " hide files matching your pattern string (file exclude)
 
 ## Termainal
 
--[kassio/neoterm](https://github.com/kassio/neoterm)
+- [kassio/neoterm](https://github.com/kassio/neoterm)
 
 ```
 <SPACE>t    " Toggle terminal on vim
