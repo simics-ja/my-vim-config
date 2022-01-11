@@ -1,4 +1,21 @@
 # Cheetsheet for my vim env
+
+## Keymaps independenton plugins
+
+### Normal mode
+
+```
+<C-h>/<C-j>/<C-k>/<C-l>   " split window movement
+<TAB>/<S-TAB>             " tab edit movement
+```
+
+### Insert mode 
+
+```
+<C-h>/<C-j>/<C-k>/<C-l>   " cursor movement
+jj                        " Escape insert mode (valid even if IME is enabled)
+```
+
 ## File explorer
 
 - [lambdalisue/fern.vim](https://github.com/lambdalisue/fern.vim)
@@ -15,16 +32,23 @@
 ```
 e           " open
 t           " open with tab edit
-E           " open with side
+E           " open with side window
+s           " open and select window
 N           " new file
 K           " new directory
 R           " rename
 c           " copy
-P           " paste
 m           " move
+C           " copy to clipboard
+M           " move to clipboard
+P           " paste from clipboard
 D           " trush
 y           " yank file path
 i           " move cursor to path string
+fi          " show only files matching your pattern string (file include)
+a           " execute fern action
+fe          " hide files matching your pattern string (file exclude)
+!           " hide hidden file
 ?           " help
 ```
 
