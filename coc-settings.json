@@ -6,5 +6,6 @@
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
     }
-  }
+  },
+  "suggest.keepCompleteopt": true
 }
