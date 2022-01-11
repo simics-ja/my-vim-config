@@ -5,29 +5,33 @@ set fileencodings=utf-8   " read text
 set fileformats=unix,dos,mac
 
 " == Editor config ==
-syntax on                 " Syntax Highlight
-set number                " Show line number
-set cursorline            " Highlight line number
-set wrap                  " Word wrap 
-set shiftwidth=2          " Indent width
-set softtabstop=2         " Insert number of space by tab
-set tabstop=2             " Display width of tab character
+syntax on                 " syntax highlight
+set number                " show line number
+set cursorline            " highlight line number
+set wrap                  " word wrap 
+set shiftwidth=2          " indent width
+set softtabstop=2         " insert number of space by tab
+set tabstop=2             " display width of tab character
 set expandtab             " tab to space
-set autoread              " Reload file change automatically
+set autoread              " reload file change automatically
 set clipboard+=unnamed    " yank to clipboard
-set mouse=a               " Enable mouse scroll
+set mouse=a               " enable mouse scroll
 set splitbelow            " open new window below
 set splitright            " open new window right
-set wildmenu              " Show comand candidate on status line
-set laststatus=2          " Always show status line 
-set hidden                " Enable undo if change buffer
+set wildmenu              " show command candidate on status line
+set laststatus=2          " always show status line 
+set hidden                " enable undo if change buffer
+set nospell               " spell check
 
 " == String search ==
-set ignorecase            " Ignore case
-set smartcase             " If search string includes upper case, discriminates case.
-set wrapscan              " Rewind string search to first from last
-set incsearch             " Incremental search
-set hlsearch              " Highlight matched keyword
+set ignorecase            " ignore case
+set smartcase             " if search string includes upper case, discriminates case.
+set wrapscan              " rewind string search to first from last
+set incsearch             " incremental search
+set hlsearch              " highlight matched keyword
+
+" == Code completion ==
+set pumheight=10          " completion candidate
 
 " Disable IME by escape
 function! Fcitx2en()
@@ -39,3 +43,15 @@ endfunction
 
 set ttimeoutlen=150
 autocmd InsertLeave * call Fcitx2en()
+
+" == Color config ==
+hi clear CursorLine
+hi clear MatchParen
+hi MatchParen ctermfg=darkred
+hi clear Error
+hi Error ctermfg=black ctermbg=darkred
+hi clear Search
+hi Search cterm=underline ctermbg=darkgray
+hi clear SpelunkerSpellBad
+hi SpelunkerSpellBad cterm=underline
+
