@@ -52,8 +52,30 @@ fe          " hide files matching your pattern string (file exclude)
 ?           " help
 ```
 
-## Fuzzy Finder
+## Fuzzy finder
 
+- [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
+
+```
+<SPACE>f    " file search
+<SPACE>g    " git-managed file search
+<SPACE>m    " git-modified file search
+<SPACE>r    " ripgrep search for project files
+<SPACE>b    " opened buffer search
+<SPACE>w    " window search
+<SPACE>h    " history search
+<SPACE>c    " commit log search
+<SPACE>p    " vim command search
+```
+
+## Spell checker
+
+- [kamykn/spelunker.vim](https://github.com/kamykn/spelunker.vim)
+
+```
+ZL          " suggest correct words in buffer
+Zl          " suggest correct words under cursor
+```
 
 ## Comment out
 
