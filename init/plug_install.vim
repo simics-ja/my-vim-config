@@ -24,7 +24,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/indentLine'
 
 " Git
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'                       " Git wrapper for vim
+Plug 'tpope/vim-rhubarb'                        " :GBrowse handler for fugitive
 Plug 'airblade/vim-gitgutter'                   " Show line's git diff
 
 " Terminal
