@@ -43,5 +43,8 @@ Plug 'lambdalisue/fern-hijack.vim'              " Set Fern as default explorer
 " Comment out
 Plug 'tpope/vim-commentary'
 
+" Spell checker
+Plug 'kamykn/spelunker.vim'
+
 " Initialize plugin system
 call plug#end()
