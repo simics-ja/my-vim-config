@@ -1,6 +1,6 @@
-# Cheetsheet for my vim env
+# Cheet sheet for my vim env
 
-## Keymaps independenton plugins
+## Keymaps independent on plugins
 
 ### Normal mode
 
@@ -27,7 +27,7 @@ jj                        " Escape insert mode (valid even if IME is enabled)
 <SPACE>e    " open file explorer
 ```
 
-### Action on explorer
+### Action on fern explorer
 
 ```
 e           " open
@@ -66,6 +66,20 @@ fe          " hide files matching your pattern string (file exclude)
 <SPACE>h    " history search
 <SPACE>c    " commit log search
 <SPACE>p    " vim command search
+```
+
+## Git
+
+- [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [tpope/vim-rhubarb](https://github.com/tpope/vim-rhubarb)
+
+```
+\gb         " git blame
+\gd         " git diff
+\gl         " git log
+\gw         " write and git add
+\gr         " git checkout -
+\go         " open remote repository with browser
 ```
 
 ## Spell checker
