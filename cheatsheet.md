@@ -86,7 +86,7 @@ fe          " hide files matching your pattern string (file exclude)
 \gd         " git diff
 \gl         " git log
 \gw         " write and git add
-\gr         " git checkout -
+\gr         " git checkout --
 \go         " open remote repository with browser
 ```
 
