@@ -62,3 +62,8 @@ hi clear ColorColumn
 hi ColorColumn ctermbg=darkgray
 hi clear CursorLineNr
 hi CursorLineNr ctermfg=magenta
+hi clear Pmenu 
+hi Pmenu ctermfg=242 ctermbg=0
+hi clear PmenuSel
+hi PmenuSel ctermfg=0 ctermbg=13
+
