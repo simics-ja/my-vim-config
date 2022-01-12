@@ -47,5 +47,8 @@ Plug 'tpope/vim-commentary'
 " Spell checker
 Plug 'kamykn/spelunker.vim'
 
+" line number
+Plug 'vim-scripts/RltvNmbr.vim'
+
 " Initialize plugin system
 call plug#end()

@@ -90,6 +90,14 @@ fe          " hide files matching your pattern string (file exclude)
 \go         " open remote repository with browser
 ```
 
+## Relative line number
+
+- [vim-scripts/RltvNmbr.vim](https://github.com/vim-scripts/RltvNmbr.vim)
+
+```
+\\          " toggle relative line number
+```
+
 ## Spell checker
 
 - [kamykn/spelunker.vim](https://github.com/kamykn/spelunker.vim)
