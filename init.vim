@@ -1,3 +1,5 @@
+set runtimepath+=~/.config/nvim
+
 runtime init/plug_install.vim
 
 runtime init/main.init.vim

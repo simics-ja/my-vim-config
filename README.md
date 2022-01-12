@@ -21,12 +21,10 @@ brew install nvim
 git clone https://github.com/simics-ja/my-vim-config.git ~/.config/nvim
 ```
 
-Optionally, you can get one .vimrc file by the following command.
+Optionally, if you use vim, please make symbolic link.
 
 ```sh
-cd ~/.config/nvim
-sh make_vimrc.sh
-mv ./.vimrc ~/.vimrc
+ln -s ~/.config/nvim/init.vim ~/.vimrc
 ```
 
 Then, open nvim/vim and install plugins.
@@ -42,7 +40,7 @@ This environment uses [coc.nvim](neoclide/coc.nvim).
 :CocInstall coc-json coc-tsserver coc-css coc-html coc-sh coc-go coc-markdownlint coc-pyright
 ```
 
-Additionally, execute the following command for coc-sh.
+Additionally, execute the following command on terminal.
 
 ```sh
 npm i -g bash-language-server dockerfile-language-server-nodejs
