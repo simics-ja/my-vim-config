@@ -13,6 +13,9 @@ Plug 'vim-jp/vimdoc-ja'
 " LSP
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" LaTeX
+Plug 'lervag/vimtex'
+
 " Status Line
 Plug 'itchyny/lightline.vim'
 

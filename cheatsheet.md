@@ -117,3 +117,16 @@ gcap        " paragraph
 {Visual}gc  " with visual mode
 ```
 
+## LaTeX
+
+- [lervag/vimtex](https://github.com/lervag/vimtex)
+
+```
+\ll         " Start compiling
+\lk         " Stop compiling
+\lc         " Clear auxiality files
+\lv         " Open compiled PDF
+\le         " Close quickfix menu(In quickfix menu, <Enter> enables code jump.)
+\lt         " Show a window with a table of contents:
+```
+

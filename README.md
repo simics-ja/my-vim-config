@@ -37,7 +37,7 @@ For your requirements, set up a language server you need.
 This environment uses [coc.nvim](neoclide/coc.nvim).
 
 ```vim
-:CocInstall coc-json coc-tsserver coc-css coc-html coc-sh coc-go coc-markdownlint coc-pyright
+:CocInstall coc-json coc-tsserver coc-css coc-html coc-sh coc-go coc-markdownlint coc-pyright coc-vimtex
 ```
 
 Additionally, execute the following command on terminal.
